@@ -1,0 +1,36 @@
+$("#start-1").click(function(){
+  $("#card-1").fadeOut(500)
+  setTimeout(function(){
+    $("#card-2").fadeIn(2500)
+  },300)
+})
+$("#start-2").click(function(){
+  $("#card-2").hide()
+  setTimeout(function(){
+    $("#card-3").fadeIn(2500)
+  },300)
+})
+$("#start-3").click(function(){
+  $("#card-3").hide()
+  setTimeout(function(){
+    $("#card-4").fadeIn(2500)
+  },300)
+})
+$("#start-4").click(function(){
+  $("#card-4").hide()
+  setTimeout(function(){
+    $("#card-5").fadeIn(2500)
+  },300)
+})
+$("#start-5").click(function(){
+  $("#card-5").hide()
+  setTimeout(function(){
+    $("#card-6").fadeIn(2500)
+  },300)
+})
+$("#start-6").click(function(){
+  $("#card-6").hide()
+  setTimeout(function(){
+    $("#card-7").fadeIn(2500)
+  },300)
+})

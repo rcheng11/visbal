@@ -1,0 +1,72 @@
+*{
+  font-family: "Lora", serif;
+}
+h1,h2,h3,h4,h5{
+  font-family: "Playfair Display", sans-serif;
+}
+.block-header{
+  text-align: center;
+  display: block;
+}
+.celebrate {
+	position: relative;
+	bottom: 20%;
+	font-size: 24pt;
+	letter-spacing: 3px;
+	background: #9b1c2c;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	transition: all 0.4s;
+	padding: 10px 20px;
+}
+.description-blurb{
+  background-color: white;
+}
+.img-icon{
+  border-radius: 100%;
+  object-fit: cover;
+  width: 225px;
+  height: 225px;
+}
+.start-btn{
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ba752b;
+  background-color: #f0b726;
+  color:#a64c14;
+  font-weight: bold;
+}
+.start-btn:focus{
+  outline: none;
+}
+.start-btn:hover{
+  animation: start-btn-hover 0.3s forwards;
+}
+#mich-img{
+  object-position: 0% 37%
+}
+#card-2{
+  display: none;
+}
+#card-3{
+  display: none;
+}
+#card-4{
+  display:none;
+}
+#card-5{
+  display:none;
+}
+#card-6{
+  display:none;
+}
+#card-7{
+  display:none;
+}
+@keyframes start-btn-hover {
+  to{background-color: #a63914;
+  color: #f5dbd3;}
+}
